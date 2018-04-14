@@ -3,7 +3,7 @@
 <div class="container">
     <div class="col-md-6 col-md-offset-3">
         <br>
-        <img id="images" class="media-object img-circle col-md-offset-5" src="/public/images/default_avatar.jpg" alt="64x64" style="height: 100px ;width: 100px;">
+        <img id="images" class="media-object img-circle col-md-offset-5" src="/images/default_avatar.jpg" alt="64x64" style="height: 100px ;width: 100px;">
         <br>
         <form method="post" action="/user/login" accept-charset="UTF-8">
             {{csrf_field()}}

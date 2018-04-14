@@ -5,13 +5,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/font-awesome.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/jquery.Jcrop.css')}}">
-    <script type="text/javascript" src="{{asset('public/jquery/jquery-2.1.4.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('public/jquery/jquery.form.js')}}"></script>
-    <script type="text/javascript" src="{{asset('public/jquery/jquery.Jcrop.min.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/jquery.Jcrop.css')}}">
+    <script type="text/javascript" src="{{asset('jquery/jquery-2.1.4.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('jquery/jquery.form.js')}}"></script>
+    <script type="text/javascript" src="{{asset('jquery/jquery.Jcrop.min.js')}}"></script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
@@ -50,6 +50,6 @@
     </div>
 </nav>
 @yield('content')
-<script src="{{asset('/public/js/bootstrap.js')}}"></script>
+<script src="{{asset('js/bootstrap.js')}}"></script>
 </body>
 </html>
