@@ -51,7 +51,7 @@ class UserController extends Controller
     {
         $data=[
             'confirm_code'=>str_random(48),
-            'avatar'=>'/public/images/default_avatar.jpg',
+            'avatar'=>'/images/default_avatar.jpg',
         ];
         User::register(array_merge($request->all(),$data),$data);
         return redirect('/user/login');
@@ -107,7 +107,7 @@ class UserController extends Controller
             ]);
 
         }
-        $filePath='public/upload/';
+        $filePath='upload/';
         $fileName=Auth::user()->id.'_'.time().$file->getClientOriginalName();
         $file->move($filePath,$fileName);
         Image::make($filePath.$fileName)->fit(400)->save();
