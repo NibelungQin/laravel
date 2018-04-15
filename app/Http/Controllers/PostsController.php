@@ -87,7 +87,7 @@ class PostsController extends Controller
 
     public function upload()
     {
-        $data = EndaEditor::uploadImgFile('public/upload');
+        $data = EndaEditor::uploadImgFile('upload');
         return json_encode($data);
     }
 

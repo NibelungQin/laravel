@@ -38,7 +38,7 @@
                     <div class="content">
                         <div class="crop-image-wrapper">
                             <img
-                                    src="/public/images/default_avatar.jpg"
+                                    src="/images/default_avatar.jpg"
                                     class="ui centered image" id="cropbox" >
                             <input type="hidden" id="photo" name="photo" />
                             <input type="hidden" id="x" name="x" />
